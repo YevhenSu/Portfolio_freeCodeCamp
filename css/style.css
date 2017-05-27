@@ -551,33 +551,7 @@ footer {
 more media queries
 ================================= */
 
-@media (max-width:768px) {
-	#intro{
-		background-image: url(../img/bg-mac.png);
-		background-size:100%;
-	}
-	.box-about, .box-about img {
-		text-align: center;
-	}
-	.box-about img {
-		float: none;
-		margin:0 auto;
-	}	
-	.box-about {
-		margin-bottom: 30px;
-	}
 
-	
-}
-
-@media (max-width:992px) {
-
-
-	.service p{
-			margin-bottom: 60px;
-	}
-
-}
 
 @media only screen and (max-width : 480px) {
 			.fa-stack {
