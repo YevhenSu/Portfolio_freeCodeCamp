@@ -576,8 +576,20 @@ more media queries
 
 }
 
-@media (max-width:480px){
-	#intro{
-		background-image: none;
-	}
-}
+@media only screen and (max-width : 480px) {
+			#intro{
+					background-image: none;
+			}
+			.fa-stack {
+
+			    width: 1.5em;
+			    height: 1.5em;
+					line-height: 1.5em;
+
+    	}
+
+			.fa-stack-2x {
+          font-size: 1.5em;
+      }
+    }
+
