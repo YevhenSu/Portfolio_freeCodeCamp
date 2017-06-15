@@ -131,7 +131,7 @@ var NewComponent = React.createClass({
                 React.createElement(
                   "p",
                   null,
-                  "Kyiv, Ukraine."
+                  "I'm based in Kiev, Ukraine."
                 )
               )
             )
