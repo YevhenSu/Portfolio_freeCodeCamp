@@ -131,7 +131,7 @@ var NewComponent = React.createClass({
                 React.createElement(
                   "p",
                   null,
-                  "I'm based in Kiev, Ukraine."
+                  "Kyiv, Ukraine."
                 )
               )
             )
@@ -631,7 +631,7 @@ var NewComponent = React.createClass({
                   React.createElement(
                     "a",
                     { href: "#image-7" },
-                    React.createElement("img", { src: "img/works/thumbs/krasa_2.jpg", alt: "website" }),
+                    React.createElement("img", { src: "img/works/thumbs/markup.jpg", alt: "markup" }),
                     React.createElement(
                       "span",
                       null,
@@ -646,7 +646,7 @@ var NewComponent = React.createClass({
                       { href: "#page", className: "lb-close" },
                       "x Close"
                     ),
-                    React.createElement("img", { src: "img/works/krasa_2.jpg", alt: "website" }),
+                    React.createElement("img", { src: "img/works/markup.jpg", alt: "markup" }),
                     React.createElement(
                       "div",
                       null,
@@ -656,13 +656,18 @@ var NewComponent = React.createClass({
                         React.createElement(
                           "span",
                           null,
-                          "Beauty Salon"
+                          "MarkdownPreviewer"
                         )
                       ),
+
                       React.createElement(
-                        "p",
-                        { style: { color: 'black' } },
-                        "Back End feat. NODE.js"
+                        "a",
+                        { href: "https://yevhensu.github.io/freeCodeCamp-Build-a-Markdown-Previewer/", target: "_blank" },
+                        React.createElement(
+                          "p",
+                          { style: { color: 'black' } },
+                          "Details"
+                        )
                       )
                     )
                   )
