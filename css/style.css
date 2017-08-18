@@ -560,3 +560,25 @@ more media queries
           font-size: 1.5em;
       }
     }
+
+@media (max-width: 780px) {
+	  #intro {
+	    background-image: url(../img/bg-mac480.png);
+	  }
+	}
+
+	@media (max-width: 480px) {
+	  #intro {
+	    background-image: none;
+	  }
+
+		.intro-text h1 a {
+			color:#fff;
+			font-size: 20px;
+		}
+
+		.intro-text p span {
+			color:#fff;
+			font-size: 12px;
+		}
+	}
