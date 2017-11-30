@@ -901,7 +901,7 @@ var Contact = function (_React$Component6) {
                                 React.createElement(
                                     "strong",
                                     null,
-                                    "+38(099) 736 40 98"
+                                    "+380(99) 736 40 98"
                                 )
                             ),
                             React.createElement(
