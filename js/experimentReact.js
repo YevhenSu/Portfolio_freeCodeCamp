@@ -1037,7 +1037,7 @@ var Footer = function (_React$Component7) {
                             React.createElement(
                                 "p",
                                 null,
-                                "Copyright \xA92017, 2019"
+                                "Copyright \xA92017 - 2019"
                             )
                         )
                     )
